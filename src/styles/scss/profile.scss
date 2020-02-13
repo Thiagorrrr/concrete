@@ -1,0 +1,42 @@
+@import "./mixins.scss";
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 280px;
+
+    &__title {
+        font-size: 40px;
+
+        &--highlight {
+            font-family: Raleway;
+            font-weight: 200;
+            font-style: italic;
+        }
+    }
+
+    &__img {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        width: 280px;
+        width: 280px;
+        min-height: 280px;
+    }
+
+    &__login,
+    &__company,
+    &__location,
+    &__star,
+    &__public-repos,
+    &__followers {
+        display: flex;
+        align-items: center;
+        padding-top: 8px;
+        color: $color__black;
+
+        svg {
+            margin-right: 8px;
+        }
+    }
+}

@@ -1,0 +1,24 @@
+@import "./mixins.scss";
+@import "./font.scss";
+@import "./item.scss";
+@import "./search.scss";
+@import "./repo.scss";
+@import "./results.scss";
+@import "./profile.scss";
+@import "./form.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-width: rem(280);
+}
+
+.content {
+  @media screen and (min-width: 1024px) {
+    display: flex;
+
+  }
+}

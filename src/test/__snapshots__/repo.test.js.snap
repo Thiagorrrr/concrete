@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="repo"
+>
+  <ul
+    className="repo__list"
+  >
+    <div
+      className="notFound"
+    >
+      <span
+        className="NotFound"
+      >
+          NotFound
+      </span>
+    </div>
+  </ul>
+</div>
+`;

@@ -1,0 +1,21 @@
+.search {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 90%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 1024px) {
+  .search {
+    max-width: 750px;
+  }
+}
+.search__title {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/*# sourceMappingURL=search.css.map */

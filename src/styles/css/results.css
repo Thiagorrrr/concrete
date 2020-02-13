@@ -1,0 +1,26 @@
+.results {
+  width: 100%;
+}
+.results__repo {
+  width: 100%;
+}
+@media screen and (min-width: 1024px) {
+  .results__repo {
+    padding-left: 60px;
+  }
+}
+.results__container {
+  padding-top: 35px;
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 1024px) {
+  .results__container {
+    flex-direction: row;
+    max-width: 1152px;
+  }
+}
+
+/*# sourceMappingURL=results.css.map */

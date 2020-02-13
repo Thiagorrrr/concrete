@@ -1,0 +1,19 @@
+.repo {
+  margin-top: 44px;
+}
+.repo__list {
+  list-style: none;
+}
+.repo__item {
+  padding-bottom: 20px;
+}
+.repo__stars {
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+}
+.repo__stars svg {
+  margin-right: 8px;
+}
+
+/*# sourceMappingURL=repo.css.map */

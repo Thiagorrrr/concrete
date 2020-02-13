@@ -1,0 +1,54 @@
+@import "./mixins.scss";
+
+.form {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+    &__input {
+        width: 100%;
+        max-width: 650px;
+        padding: 16px;
+        border: 0;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
+        color: $color__black;
+    }
+
+    &__form {
+        width: 100%;
+        display: flex;
+
+    }
+
+    &__btn-content {
+        position: relative;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.4);
+
+        svg {
+            cursor: pointer;
+            position: absolute;
+            left: 30px;
+            top: 10px;
+            z-index: 1;
+        }
+    }
+
+
+
+    &__btn {
+        cursor: pointer;
+        width: 100px;
+        z-index: 2;
+        border: 1px solid $color__lighter-purple;
+        background: $color__lighter-purple;
+
+        height: 100%;
+    }
+
+
+}
